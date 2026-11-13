@@ -1,0 +1,17 @@
+{
+  "name": "tutorial-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "手把手建站教程 + 讨论区，部署在 Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
